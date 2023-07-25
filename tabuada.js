@@ -1,36 +1,36 @@
 // Inicializando a variável de controle e a entrada dos números
-// let contador = 1;
-// let numero;
+ let contador = 1;
+ let numero;
 
-// // Laço de repetição while
-// while (contador <= 5) {
-//   // Entrada do número
-//   numero = parseFloat(prompt("Digite um número:"));
+ // Laço de repetição while
+ while (contador <= 5) {
+   // Entrada do número
+   numero = parseFloat(prompt("Digite um número:"));
 
-//   // Exibição dos resultados
-//   let multiplicador = 1;
-//   while (multiplicador <= 5) {
-//     let resultado = numero * (numero + multiplicador);
-//     console.log(numero + " x " + (numero + multiplicador) + " = " + resultado);
-//     multiplicador++;
-//   }
+   // Exibição dos resultados
+   let multiplicador = 1;
+   while (multiplicador <= 5) {
+     let resultado = numero * (numero + multiplicador);
+     console.log(numero + " x " + (numero + multiplicador) + " = " + resultado);
+     multiplicador++;
+   }
 
-//   contador++;
-// }
-// var condicao = 0;
+   contador++;
+ }
+ var condicao = 0;
 
-// while (condicao <= 2) {
-//   let numeroRecebido = parseInt(prompt("Digite um número:"));
+ while (condicao <= 2) {
+   let numeroRecebido = parseInt(prompt("Digite um número:"));
 
-//   let multiplicador = 1;
-//   while (multiplicador < 10 ) {
-//     let resultado = numeroRecebido * (condicao + multiplicador);
-//     console.log (numeroRecebido + " x " + (numeroRecebido + multiplicador) + " = " + (resultado);
-//     multiplicador++;
-//   }
+   let multiplicador = 1;
+   while (multiplicador < 10 ) {
+    let resultado = numeroRecebido * (condicao + multiplicador);
+     console.log (numeroRecebido + " x " + (numeroRecebido + multiplicador) + " = " + (resultado);
+     multiplicador++;
+   }
 
-//   condicao++;
-// }
+   condicao++;
+ }
 let condicao = 0;
 
 while (condicao < 3) {

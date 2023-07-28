@@ -25,3 +25,4 @@ for (let i = 0; i < quantidadeAlunos; i++) {
 
 console.log('Quantidade de alunos com mais de 13 anos e altura menor do que a média:', alunosComMenorAltura);
 
+

@@ -18,3 +18,9 @@ function multiplicar(a, b){
 function dividir(a, b){
     return a / b;
 }
+
+
+console.log("Soma:", somar(a, b));
+console.log("Subtração:", subtrair(a, b));
+console.log("Multiplicação:", multiplicar(a, b));
+console.log("Divisão:", dividir(a, b));

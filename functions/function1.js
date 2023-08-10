@@ -1,5 +1,3 @@
-
-
 function somar(a, b){
     return a + b;
 }
@@ -19,7 +17,8 @@ function dividir(a, b){
 }
 
 var contador = 0;
-var continuar
+var continuar = 's';
+var resultado = [];
 
 while (continuar == 's'){
 var a = parseInt(prompt("Insira o valor de A"))
@@ -30,16 +29,16 @@ var operacao = parseInt(prompt("Escolha a operação: Soma/n1 - Subtração/n2 -
  var resultadoOperacao;
   switch(operacao){
     case 1: 
-      resultadoOperacao = somar(a, b));
+      resultadoOperacao = somar(a, b);
      break;
     case 2: 
-      resultadoOperacao = subtrair(a, b));
+      resultadoOperacao = subtrair(a, b);
      break;
     case 3: 
-      resultadoOperacao = multiplicar(a, b));
+      resultadoOperacao = multiplicar(a, b);
      break;
     case 4:  
-      resultadoOperacao = dividir(a, b));
+      resultadoOperacao = dividir(a, b);
     default:
         console.log("Operação inválida")
      break;
@@ -55,3 +54,13 @@ continuar = prompt("Deseja realizar outra operação? s ou n");
 }
  
 
+
+function exibirHistorico(){
+  console.log('Histórico de resultados: ');
+  
+  for (var i = 0; i < resultado.length; i++){
+    console.log ('resultado ' + i + ": " + resultado[i])
+  }
+}
+
+exibirHistorico();
